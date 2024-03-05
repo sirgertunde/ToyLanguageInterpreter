@@ -1,0 +1,6883 @@
+Id=0
+Stack:
+(Ref(int)=a;(int=counter;WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)))
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(int=counter;WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1))
+Ref(int)=a
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(int=counter;WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1))
+Ref(int)=a
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(int=counter;WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1))
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(int=counter;WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1))
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+int=counter
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+int=counter
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=1
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=1
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=1
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=2
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=2
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+1 : 0
+
+Id=2
+Stack:
+
+Symbol Table:
+a : (1, int)
+counter : 0
+
+Output:
+
+Heap:
+1 : 0
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=3
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=3
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=3
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+2 : 1
+
+Id=4
+Stack:
+
+Symbol Table:
+a : (2, int)
+counter : 1
+
+Output:
+
+Heap:
+2 : 1
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=5
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=5
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=5
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=6
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=6
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+3 : 2
+
+Id=6
+Stack:
+
+Symbol Table:
+a : (3, int)
+counter : 2
+
+Output:
+
+Heap:
+3 : 2
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=7
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=7
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=7
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=8
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=8
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+4 : 3
+
+Id=8
+Stack:
+
+Symbol Table:
+a : (4, int)
+counter : 3
+
+Output:
+
+Heap:
+4 : 3
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=9
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=9
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=9
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=10
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=10
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+5 : 4
+
+Id=10
+Stack:
+
+Symbol Table:
+a : (5, int)
+counter : 4
+
+Output:
+
+Heap:
+5 : 4
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=11
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=11
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=11
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=12
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=12
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+6 : 5
+
+Id=12
+Stack:
+
+Symbol Table:
+a : (6, int)
+counter : 5
+
+Output:
+
+Heap:
+6 : 5
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=13
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=13
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=13
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=14
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=14
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+7 : 6
+
+Id=14
+Stack:
+
+Symbol Table:
+a : (7, int)
+counter : 6
+
+Output:
+
+Heap:
+7 : 6
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=15
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=15
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=15
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=16
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=16
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+8 : 7
+
+Id=16
+Stack:
+
+Symbol Table:
+a : (8, int)
+counter : 7
+
+Output:
+
+Heap:
+8 : 7
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=17
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=17
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=17
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=18
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=18
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+9 : 8
+
+Id=18
+Stack:
+
+Symbol Table:
+a : (9, int)
+counter : 8
+
+Output:
+
+Heap:
+9 : 8
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=19
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=19
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 10
+
+Output:
+
+Heap:
+
+Id=19
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=20
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 10
+
+Output:
+
+Heap:
+
+Id=20
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 10
+
+Output:
+
+Heap:
+10 : 9
+
+Id=20
+Stack:
+
+Symbol Table:
+a : (10, int)
+counter : 9
+
+Output:
+
+Heap:
+10 : 9
+
+Id=0
+Stack:
+(int=v;(v=2;print(v)))
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(v=2;print(v))
+int=v
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(v=2;print(v))
+int=v
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(v=2;print(v))
+
+Symbol Table:
+v : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(v=2;print(v))
+
+Symbol Table:
+v : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+v=2
+
+Symbol Table:
+v : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+v=2
+
+Symbol Table:
+v : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+
+Symbol Table:
+v : 2
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+
+Symbol Table:
+v : 2
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+
+Symbol Table:
+v : 2
+
+Output:
+2
+
+Heap:
+
+Id=0
+Stack:
+(int=v;(v=2;print(v)))
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(v=2;print(v))
+int=v
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(v=2;print(v))
+int=v
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(v=2;print(v))
+
+Symbol Table:
+v : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(v=2;print(v))
+
+Symbol Table:
+v : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+v=2
+
+Symbol Table:
+v : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+v=2
+
+Symbol Table:
+v : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+
+Symbol Table:
+v : 2
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+
+Symbol Table:
+v : 2
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+
+Symbol Table:
+v : 2
+
+Output:
+2
+
+Heap:
+
+Id=4
+Stack:
+(Ref(int)=a;(int=counter;WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)))
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+(int=counter;WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1))
+Ref(int)=a
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+(int=counter;WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1))
+Ref(int)=a
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+(int=counter;WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1))
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+(int=counter;WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1))
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+int=counter
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+int=counter
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=5
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=5
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=5
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=6
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=6
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 0
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+1 : 0
+
+Id=6
+Stack:
+
+Symbol Table:
+a : (1, int)
+counter : 0
+
+Output:
+
+Heap:
+1 : 0
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=7
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=7
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=7
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=8
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=8
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 1
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+2 : 1
+
+Id=8
+Stack:
+
+Symbol Table:
+a : (2, int)
+counter : 1
+
+Output:
+
+Heap:
+2 : 1
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=9
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=9
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=9
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=10
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=10
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 2
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+3 : 2
+
+Id=10
+Stack:
+
+Symbol Table:
+a : (3, int)
+counter : 2
+
+Output:
+
+Heap:
+3 : 2
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=11
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=11
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=11
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=12
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=12
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 3
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+4 : 3
+
+Id=12
+Stack:
+
+Symbol Table:
+a : (4, int)
+counter : 3
+
+Output:
+
+Heap:
+4 : 3
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=13
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=13
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=13
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=14
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=14
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 4
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+5 : 4
+
+Id=14
+Stack:
+
+Symbol Table:
+a : (5, int)
+counter : 4
+
+Output:
+
+Heap:
+5 : 4
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=15
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=15
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=15
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=16
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=16
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 5
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+6 : 5
+
+Id=16
+Stack:
+
+Symbol Table:
+a : (6, int)
+counter : 5
+
+Output:
+
+Heap:
+6 : 5
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=17
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=17
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=17
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=18
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=18
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 6
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+7 : 6
+
+Id=18
+Stack:
+
+Symbol Table:
+a : (7, int)
+counter : 6
+
+Output:
+
+Heap:
+7 : 6
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=19
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=19
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=19
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=20
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=20
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 7
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+8 : 7
+
+Id=20
+Stack:
+
+Symbol Table:
+a : (8, int)
+counter : 7
+
+Output:
+
+Heap:
+8 : 7
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=21
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=21
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=21
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=22
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=22
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 8
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+9 : 8
+
+Id=22
+Stack:
+
+Symbol Table:
+a : (9, int)
+counter : 8
+
+Output:
+
+Heap:
+9 : 8
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+fork(fork(new(a, counter)))
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=23
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+counter=counter+1
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=23
+Stack:
+fork(new(a, counter))
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 10
+
+Output:
+
+Heap:
+
+Id=23
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=24
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+WHILE(counter < 10)(fork(fork(new(a, counter)));counter=counter+1)
+
+Symbol Table:
+a : (0, int)
+counter : 10
+
+Output:
+
+Heap:
+
+Id=24
+Stack:
+new(a, counter)
+
+Symbol Table:
+a : (0, int)
+counter : 9
+
+Output:
+
+Heap:
+
+Id=4
+Stack:
+
+Symbol Table:
+a : (0, int)
+counter : 10
+
+Output:
+
+Heap:
+10 : 9
+
+Id=24
+Stack:
+
+Symbol Table:
+a : (10, int)
+counter : 9
+
+Output:
+
+Heap:
+10 : 9
+
+Id=0
+Stack:
+(int=v;(v=20;(for(v=0;v<3;v=v+1){(fork((print(v);(v=v+1;print(v))));v=v*10)};print(v))))
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(v=20;(for(v=0;v<3;v=v+1){(fork((print(v);(v=v+1;print(v))));v=v*10)};print(v)))
+int=v
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(v=20;(for(v=0;v<3;v=v+1){(fork((print(v);(v=v+1;print(v))));v=v*10)};print(v)))
+int=v
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(v=20;(for(v=0;v<3;v=v+1){(fork((print(v);(v=v+1;print(v))));v=v*10)};print(v)))
+
+Symbol Table:
+v : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(v=20;(for(v=0;v<3;v=v+1){(fork((print(v);(v=v+1;print(v))));v=v*10)};print(v)))
+
+Symbol Table:
+v : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){(fork((print(v);(v=v+1;print(v))));v=v*10)};print(v))
+v=20
+
+Symbol Table:
+v : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){(fork((print(v);(v=v+1;print(v))));v=v*10)};print(v))
+v=20
+
+Symbol Table:
+v : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){(fork((print(v);(v=v+1;print(v))));v=v*10)};print(v))
+
+Symbol Table:
+v : 20
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){(fork((print(v);(v=v+1;print(v))));v=v*10)};print(v))
+
+Symbol Table:
+v : 20
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+for(v=0;v<3;v=v+1){(fork((print(v);(v=v+1;print(v))));v=v*10)}
+
+Symbol Table:
+v : 20
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+for(v=0;v<3;v=v+1){(fork((print(v);(v=v+1;print(v))));v=v*10)}
+
+Symbol Table:
+v : 20
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+(int=v;(v=0;WHILE(3 < v)((fork((print(v);(v=v+1;print(v))));v=v*10);v=v+1)))
+
+Symbol Table:
+v : 20
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+(int=v;(v=0;WHILE(3 < v)((fork((print(v);(v=v+1;print(v))));v=v*10);v=v+1)))
+
+Symbol Table:
+v : 20
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+(v=0;WHILE(3 < v)((fork((print(v);(v=v+1;print(v))));v=v*10);v=v+1))
+int=v
+
+Symbol Table:
+v : 20
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+(v=0;WHILE(3 < v)((fork((print(v);(v=v+1;print(v))));v=v*10);v=v+1))
+int=v
+
+Symbol Table:
+v : 20
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+(v=0;WHILE(3 < v)((fork((print(v);(v=v+1;print(v))));v=v*10);v=v+1))
+
+Symbol Table:
+v : 20
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+(v=0;WHILE(3 < v)((fork((print(v);(v=v+1;print(v))));v=v*10);v=v+1))
+
+Symbol Table:
+v : 20
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+WHILE(3 < v)((fork((print(v);(v=v+1;print(v))));v=v*10);v=v+1)
+v=0
+
+Symbol Table:
+v : 20
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+WHILE(3 < v)((fork((print(v);(v=v+1;print(v))));v=v*10);v=v+1)
+v=0
+
+Symbol Table:
+v : 20
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+WHILE(3 < v)((fork((print(v);(v=v+1;print(v))));v=v*10);v=v+1)
+
+Symbol Table:
+v : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+WHILE(3 < v)((fork((print(v);(v=v+1;print(v))));v=v*10);v=v+1)
+
+Symbol Table:
+v : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+
+Symbol Table:
+v : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+print(v)
+
+Symbol Table:
+v : 0
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+
+Symbol Table:
+v : 0
+
+Output:
+0
+
+Heap:
+
+Id=0
+Stack:
+(Ref(int)=a;(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))))
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+Ref(int)=a
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+Ref(int)=a
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+new(a, 20)
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+new(a, 20)
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))}
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))}
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(int=v;(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(int=v;(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+int=v
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+int=v
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+v=0
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+v=0
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+20
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+(Ref(int)=a;(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))))
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=1
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+Ref(int)=a
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=1
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+Ref(int)=a
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=1
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=1
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=1
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+new(a, 20)
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=1
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+new(a, 20)
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=1
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+print(rH(a))
+for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))}
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+print(rH(a))
+for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))}
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+print(rH(a))
+(int=v;(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+print(rH(a))
+(int=v;(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+int=v
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+int=v
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+v=0
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+v=0
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+print(rH(a))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+print(rH(a))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+20
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+(Ref(int)=a;(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))))
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+Ref(int)=a
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+Ref(int)=a
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+new(a, 20)
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+new(a, 20)
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))}
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))}
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(int=v;(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(int=v;(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+int=v
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+int=v
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+v=0
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+v=0
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+20
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+(Ref(int)=a;(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))))
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+Ref(int)=a
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+Ref(int)=a
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+new(a, 20)
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+new(a, 20)
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))}
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))}
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(int=v;(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)))
+(int=v;v=0)
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(int=v;(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)))
+(int=v;v=0)
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(int=v;(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)))
+v=0
+int=v
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(int=v;(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)))
+v=0
+int=v
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(int=v;(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)))
+v=0
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(int=v;(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)))
+v=0
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(int=v;(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(int=v;(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+int=v
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+int=v
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+v=0
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+v=0
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+20
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+(Ref(int)=a;(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))))
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+Ref(int)=a
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+Ref(int)=a
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+new(a, 20)
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+new(a, 20)
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))}
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))}
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(int=v;(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(int=v;(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+int=v
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+int=v
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+v=0
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+v=0
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(3 < v)(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+20
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+(Ref(int)=a;(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))))
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+Ref(int)=a
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+Ref(int)=a
+
+Symbol Table:
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(new(a, 20);(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a))))
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+new(a, 20)
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+new(a, 20)
+
+Symbol Table:
+a : (0, int)
+
+Output:
+
+Heap:
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+(for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))};print(rH(a)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))}
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+for(v=0;v<3;v=v+1){fork((print(v);v=v*rH(a)))}
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(int=v;(v=0;WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(int=v;(v=0;WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)))
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1))
+int=v
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1))
+int=v
+
+Symbol Table:
+a : (1, int)
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+(v=0;WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+v=0
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+v=0
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+v=v+1
+fork((print(v);v=v*rH(a)))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+v=v+1
+fork((print(v);v=v*rH(a)))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+v=v+1
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+(print(v);v=v*rH(a))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+v=v+1
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+(print(v);v=v*rH(a))
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 1
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+v=v*rH(a)
+print(v)
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 1
+
+Output:
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+v=v*rH(a)
+print(v)
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 1
+
+Output:
+0
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+v=v*rH(a)
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+0
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 1
+
+Output:
+0
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+v=v*rH(a)
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+0
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+v=v+1
+fork((print(v);v=v*rH(a)))
+
+Symbol Table:
+a : (1, int)
+v : 1
+
+Output:
+0
+
+Heap:
+1 : 20
+
+Id=1
+Stack:
+
+Symbol Table:
+a : (1, int)
+v : 0
+
+Output:
+0
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+v=v+1
+fork((print(v);v=v*rH(a)))
+
+Symbol Table:
+a : (1, int)
+v : 1
+
+Output:
+0
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+v=v+1
+
+Symbol Table:
+a : (1, int)
+v : 1
+
+Output:
+0
+
+Heap:
+1 : 20
+
+Id=2
+Stack:
+(print(v);v=v*rH(a))
+
+Symbol Table:
+a : (1, int)
+v : 1
+
+Output:
+0
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+v=v+1
+
+Symbol Table:
+a : (1, int)
+v : 1
+
+Output:
+0
+
+Heap:
+1 : 20
+
+Id=2
+Stack:
+(print(v);v=v*rH(a))
+
+Symbol Table:
+a : (1, int)
+v : 1
+
+Output:
+0
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 2
+
+Output:
+0
+
+Heap:
+1 : 20
+
+Id=2
+Stack:
+v=v*rH(a)
+print(v)
+
+Symbol Table:
+a : (1, int)
+v : 1
+
+Output:
+0
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 2
+
+Output:
+0
+
+Heap:
+1 : 20
+
+Id=2
+Stack:
+v=v*rH(a)
+print(v)
+
+Symbol Table:
+a : (1, int)
+v : 1
+
+Output:
+0
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 2
+
+Output:
+0
+1
+
+Heap:
+1 : 20
+
+Id=2
+Stack:
+v=v*rH(a)
+
+Symbol Table:
+a : (1, int)
+v : 1
+
+Output:
+0
+1
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 2
+
+Output:
+0
+1
+
+Heap:
+1 : 20
+
+Id=2
+Stack:
+v=v*rH(a)
+
+Symbol Table:
+a : (1, int)
+v : 1
+
+Output:
+0
+1
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+v=v+1
+fork((print(v);v=v*rH(a)))
+
+Symbol Table:
+a : (1, int)
+v : 2
+
+Output:
+0
+1
+
+Heap:
+1 : 20
+
+Id=2
+Stack:
+
+Symbol Table:
+a : (1, int)
+v : 20
+
+Output:
+0
+1
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+v=v+1
+fork((print(v);v=v*rH(a)))
+
+Symbol Table:
+a : (1, int)
+v : 2
+
+Output:
+0
+1
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+v=v+1
+
+Symbol Table:
+a : (1, int)
+v : 2
+
+Output:
+0
+1
+
+Heap:
+1 : 20
+
+Id=3
+Stack:
+(print(v);v=v*rH(a))
+
+Symbol Table:
+a : (1, int)
+v : 2
+
+Output:
+0
+1
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+v=v+1
+
+Symbol Table:
+a : (1, int)
+v : 2
+
+Output:
+0
+1
+
+Heap:
+1 : 20
+
+Id=3
+Stack:
+(print(v);v=v*rH(a))
+
+Symbol Table:
+a : (1, int)
+v : 2
+
+Output:
+0
+1
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 3
+
+Output:
+0
+1
+
+Heap:
+1 : 20
+
+Id=3
+Stack:
+v=v*rH(a)
+print(v)
+
+Symbol Table:
+a : (1, int)
+v : 2
+
+Output:
+0
+1
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+WHILE(v < 3)(fork((print(v);v=v*rH(a)));v=v+1)
+
+Symbol Table:
+a : (1, int)
+v : 3
+
+Output:
+0
+1
+
+Heap:
+1 : 20
+
+Id=3
+Stack:
+v=v*rH(a)
+print(v)
+
+Symbol Table:
+a : (1, int)
+v : 2
+
+Output:
+0
+1
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+
+Symbol Table:
+a : (1, int)
+v : 3
+
+Output:
+0
+1
+2
+
+Heap:
+1 : 20
+
+Id=3
+Stack:
+v=v*rH(a)
+
+Symbol Table:
+a : (1, int)
+v : 2
+
+Output:
+0
+1
+2
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+print(rH(a))
+
+Symbol Table:
+a : (1, int)
+v : 3
+
+Output:
+0
+1
+2
+
+Heap:
+1 : 20
+
+Id=3
+Stack:
+v=v*rH(a)
+
+Symbol Table:
+a : (1, int)
+v : 2
+
+Output:
+0
+1
+2
+
+Heap:
+1 : 20
+
+Id=0
+Stack:
+
+Symbol Table:
+a : (1, int)
+v : 3
+
+Output:
+0
+1
+2
+20
+
+Heap:
+1 : 20
+
+Id=3
+Stack:
+
+Symbol Table:
+a : (1, int)
+v : 40
+
+Output:
+0
+1
+2
+20
+
+Heap:
+1 : 20
+
